@@ -1,55 +1,53 @@
-// 1. 상품 데이터 (수정됨: 실제 이미지 URL 사용)
+ 
+
+// 1. 상품 데이터 (이미지 주소 수정됨)
 const products = [
     { 
         id: 1, 
         name: "유기농 강아지 사료 2kg", 
         category: "dog", 
         price: 25000, 
-        // 실제 강아지 사료 이미지 URL
-        image: "https://images.unsplash.com/photo-1589924691169-a3e8c6ab1965?w=300&h=300&fit=crop" 
+        // 강아지가 밥 먹는 사진으로 교체
+        image: "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&w=300&h=300&q=80" 
     },
     { 
         id: 2, 
         name: "캣타워 (대형)", 
         category: "cat", 
         price: 89000, 
-        // 캣타워 이미지 URL
-        image: "https://images.unsplash.com/photo-1545249390-6bdfa286032f?w=300&h=300&fit=crop" 
+        image: "https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&w=300&h=300&q=80" 
     },
     { 
         id: 3, 
         name: "강아지 삑삑이 장난감", 
         category: "dog", 
         price: 5000, 
-        // 강아지 장난감 이미지 URL
-        image: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=300&h=300&fit=crop" 
+        // 귀여운 강아지 장난감 사진
+        image: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=300&h=300&q=80" 
     },
     { 
         id: 4, 
         name: "고양이 츄르 (20개입)", 
         category: "cat", 
         price: 12000, 
-        // 고양이 간식 이미지 URL
-        image: "https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?w=300&h=300&fit=crop" 
+        image: "https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?auto=format&fit=crop&w=300&h=300&q=80" 
     },
     { 
         id: 5, 
         name: "반려동물 마약 방석", 
         category: "all", 
         price: 32000, 
-        // 반려동물 침대 이미지 URL
-        image: "https://images.unsplash.com/photo-1591946614720-90a587da4a36?w=300&h=300&fit=crop" 
+        image: "https://images.unsplash.com/photo-1591946614720-90a587da4a36?auto=format&fit=crop&w=300&h=300&q=80" 
     },
     { 
         id: 6, 
         name: "강아지 산책용 목줄", 
         category: "dog", 
         price: 15000, 
-        // 강아지 목줄 이미지 URL
-        image: "https://images.unsplash.com/photo-1602584386319-455eb3989c52?w=300&h=300&fit=crop" 
+        // 산책하는 강아지 사진으로 교체
+        image: "https://images.unsplash.com/photo-1601758124510-52d02ddb7cbd?auto=format&fit=crop&w=300&h=300&q=80" 
     },
 ];
-
 // 장바구니 배열 및 DOM 요소 가져오기 (이전과 동일)
 let cart = [];
 const productList = document.getElementById('product-list');
